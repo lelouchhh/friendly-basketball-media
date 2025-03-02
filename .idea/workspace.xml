@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a779eb69-5999-4004-8018-fc32735200b2" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.gitignore" afterDir="false" />
-      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/Makefile" afterDir="false" />
-      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/README.md" afterDir="false" />
+      <change beforePath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.gitignore" beforeDir="false" afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
