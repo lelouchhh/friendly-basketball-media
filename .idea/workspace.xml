@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a779eb69-5999-4004-8018-fc32735200b2" name="Changes" comment="">
-      <change beforePath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.gitignore" beforeDir="false" afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.gitignore" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/app/main.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/domain/video.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/middleware/CORS.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/middleware/middleware.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/middleware/timeout.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/video.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/logger/logger.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/repostitory/postgres/video.go" afterDir="false" />
+      <change afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/video/service.go" afterDir="false" />
+      <change beforePath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/go.mod" beforeDir="false" afterPath="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///opt/homebrew/opt/go/libexec" />
   <component name="Git.Settings">
@@ -20,25 +37,39 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2tlrdja7MJRad8MAN1rYO30dy1c" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/llchh",
+    "last_opened_file_path": "/Users/llchh/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/middleware",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "go"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/GolandProjects/patterns/friendly-basketball-media/internal/delivery/http/middleware" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,6 +81,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
